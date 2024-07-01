@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+  position: relative;
+}
+/* nav start   */
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+nav>.nav_center>ul{
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+nav>i{
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+/* nav end   */
+/* section one start  */
+#one{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg,rgb(255, 0, 0),rgb(255, 72, 0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#one>h1{
+  font-size: 30vw;
+  color: white;
+  position: absolute;
+  z-index: 3;
+}
+#one>#img1{
+  position: absolute;
+  z-index: 7;
+  width: 18%;
+  left: 37.5%;
+  filter: drop-shadow(0 0 15px red);
+}
+#one>#img2{
+  position: absolute;
+  z-index: 2;
+  left: 30%;
+  top: 47%;
+  width: 10%;
+}
+#one>#img3{
+  position: absolute;
+  z-index: 2;
+  left: 36%;
+  top: 21%;
+  width: 12%;
+}
+#one>#img4{
+  position: absolute;
+  z-index: 2;
+  left: 49%;
+  top: 62%;
+  width: 8%;
+}
+#one>#img5{
+  position: absolute;
+  z-index: 2;
+  left: 57%;
+  top: 21%;
+  width: 11%;
+}
+#one>#img6{
+  position: absolute;
+  z-index: 2;
+  left: 19%;
+  top: 16%;
+  width: 9%;
+}
+/* section one end  */
+/* section two start  */
+#two{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg,rgb(204, 4, 4),rgb(247, 106, 54));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#two>h1{
+  font-size: 10vw;
+  background:linear-gradient(90deg,rgb(161, 22, 22) 50%,rgb(0, 183, 255)100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#two>.main{
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.main>.left{
+  width: 50%;
+  height: 100%;
+}
+.main>.right{
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  font-size: 2.5vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+}
+
+/* section two end  */
+/* section three start  */
+#three{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg,orange,orangered);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* position: relative; */
+}
+#three>.one{
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#three>.one1>#img11{
+  width: 300px;
+  position: absolute;
+  top: -20%;
+  z-index: 7;
+}
+#three>.one1>#img12{
+  width: 363px;
+  position: absolute;
+  top: -29%;
+  z-index: 1;
+  left: 11%;
+}
+#three>.three>#img11{
+  width: 572px;
+  position: absolute;
+  top: -21%;
+  z-index: 7;
+}
+#three>.three>#img12{
+  width: 490px;
+  position: absolute;
+  top: -40%;
+  z-index: 1;
+  left: -1%;
+}
+/* section three end  */
+/* section four start  */
+#four{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg,rgb(255, 81, 0),rgb(255, 123, 0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#four>h1{
+  font-size: 30vw;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+#four>#img21{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 900px;
+  filter: blur(8px);
+}
+#four>#img22{
+  position: absolute;
+  top: 19%;
+  left: -9%;
+}
+#four>#img23{
+  position: absolute;
+  top: 200px;
+  left: 378px;
+}
+
+/* section four end  */
+/* section five start  */
+#five{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg,rgb(204, 4, 4),rgb(247, 106, 54));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#five>h1{
+  font-size: 10vw;
+  background:linear-gradient(90deg,rgb(204, 101, 4),rgb(247, 106, 54));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#five>.main{
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.main>.left{
+  width: 50%;
+  height: 100%;
+}
+.main>.right{
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  font-size: 2.5vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+}
+/* section five end  */
+/* section six start  */
+#six{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg,rgb(0, 192, 0),rgb(189, 187, 187) 50%,blue);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#six>.box{
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#six>.one>#img31{
+  position: absolute;
+  top: -21%;
+  z-index: 7;
+}
+#six>.one>#img32{
+  position: absolute;
+  top: 10%;
+}
+#six>.one>#img33{
+  position: absolute;
+  top: 5%;
+  left: -6%;
+}
+#six>.one>#img34{
+  position: absolute;
+  top: 5%;
+  left: 29%;
+}
+#six>.three>#img35{
+  position: absolute;
+  top: -25%;
+  z-index: 2;
+  filter: drop-shadow(0 0 25px red);
+
+}
+#six>.three>#img36{
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+}
+/* section six end  */
+/* section seven start  */
+#seven{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg,rgb(0, 192, 0),rgb(189, 187, 187) 50%,blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#seven>h1{
+  position: absolute;
+  font-size: 25vw;
+  color: white;
+  z-index: 4;
+}
+/* section seven end  */
+/* section eight start  */
+#eight{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg,rgb(0, 192, 0),rgb(189, 187, 187) 50%,blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#eight>h1{
+  font-size: 10vw;
+  background: linear-gradient(180deg,rgb(0, 192, 0),rgb(189, 187, 187) 50%,blue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#eight>.main{
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.main>.left{
+  width: 50%;
+  height: 100%;
+}
+.main>.right{
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  font-size: 2.5vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+}#five{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg,rgb(204, 4, 4),rgb(247, 106, 54));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#five>h1{
+  font-size: 10vw;
+  background:linear-gradient(90deg,rgb(204, 101, 4),rgb(247, 106, 54));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#five>.main{
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.main>.left{
+  width: 50%;
+  height: 100%;
+}
+.main>.right{
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  font-size: 2.5vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+}
+/* section eight end  */
+/* section ten start  */
+#ten{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg,rgb(0, 192, 0),rgb(189, 187, 187) 50%,blue);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#ten>.box{
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#ten>.one>#img51{
+  position: absolute;
+  top: -20%;
+  z-index: 7;
+  width: 300px;
+}
+#ten>.one>#img52{
+  position: absolute; 
+  top: -30%;
+}
+#ten>.three>#img53{
+  position: absolute;
+  top: -20%;
+  z-index: 4;
+}
+#ten>.three>#img54{
+  position: absolute;
+  top: 25%;
+  z-index: 2;
+}
+/* section ten end  */
+/* section end start  */
+#end{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(120deg,rgb(255, 0, 0),rgb(255, 115, 0));  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#end>h1{
+  font-size: 25vw;
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+/* section end end */
